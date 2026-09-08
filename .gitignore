@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+*.swp
+
+# Environment and local configuration
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Build and dependency output
+node_modules/
+dist/
+build/
+coverage/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# IDE and editor settings
+.idea/
+.vscode/
+*.code-workspace
